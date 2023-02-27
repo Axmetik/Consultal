@@ -75,3 +75,10 @@ new Swiper('.team-swiper', {
     prevEl: '.team-arrow-left',
   },
 });
+
+
+const bookApointment = document.querySelector('.appointment__button');
+bookApointment.addEventListener('click', (event) => event.preventDefault());
+
+const footerButton = document.querySelector('.footer__button');
+footerButton.addEventListener('click', (event) => event.preventDefault());
